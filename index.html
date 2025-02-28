@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JokenPô Dev</title>
+</head>
+
+<body>
+    <header>
+        <h1>JokenPô-Dev</h1>
+        <nav>
+            <ul>
+                <li><a href="#game">Jogar</a></li>
+                <li><a href="#rules">Regras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="game" class="container">
+        <section class="game-infos">
+            <div class="human-stats">
+                <h2>Jogador</h2>
+                <p id="human-score" class="points">0</p>
+                <p>Rodadas ganhas: <span id="human-rounds">0</span> </p>
+            </div>
+
+            <div class="score">
+                <h2>Placar Atual</h2>
+                <p>Rodada: <span id="rounds-number">1</span></p>
+                <p class="result" id="result-text">Escolha sua jogada</p>
+            </div>
+
+            <div class="machine-stats">
+                <h2>Alexa</h2>
+                <p id="machine-score" class="points">0</p>
+                <p>Rodadas ganhas: <span id="machine-rounds">0</span> </p>
+            </div>
+        </section>
+
+        <section class="game-area">
+            <div class="choice-buttons">
+                <button id="button-choice" onclick="playHuman('rock')">&#x270A</button>
+                <button id="button-choice" onclick="playHuman('paper')">&#x270B</button>
+                <button id="button-choice" onclick="playHuman('scissors')">&#x270C</button>
+            </div>
+        </section>
+
+        <section class="players-choice">
+            <div>
+                <h3>Sua escolha</h3>
+                <span id="your-choice">?</span>
+            </div>
+
+            <div>
+                <h3 class="versus">VS</h3>
+            </div>
+
+            <div>
+                <h3>Escolha da Alexa</h3>
+                <span id="machine-choice">?</span>
+            </div>
+        </section>
+
+        <section class="new-game-button">
+            <button id="reset-game-button">Novo Jogo</button>
+        </section>
+    </main>
+
+    <section id="rules" class="rules">
+        <h2>Como Jogar</h2>
+        <article>
+            <h3>Regras do Jogo</h3>
+            <ul>
+                <li>Escolha entre Pedra, Papel ou Tesoura </li>
+                <li>Marque 7 pontos para vencer uma rodada</li>
+                <li>Vença 3 rodadas para ser campeão</li>
+            </ul>
+        </article>
+    </section>
+
+    <footer>
+        <p>&#169 2025 JokenPô-Dev Game. Todos os direitos reservados</p>
+    </footer>
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
