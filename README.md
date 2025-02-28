@@ -8,4 +8,5 @@
 <img src= "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt= "logo-JavaScript">
 <br>
 <h3>Aqui estão algumas imagens do projeto:</h3>
-<img src= "https://github.com/NicollasAlmeida14/jokenpo/blob/master/assets/JokenP%C3%B4%20Dev%20desktop.png?raw=true" width= "500px">
+<img src= "https://github.com/NicollasAlmeida14/jokenpo/blob/master/assets/JokenP%C3%B4%20Dev%20desktop.png?raw=true" width= "500px" alt= "imagem-projeto-desktop">
+<img src= "https://github.com/NicollasAlmeida14/jokenpo/blob/master/assets/JokenP%C3%B4%20Dev%20mobile%20pt1.png?raw=true" height= "500px">
