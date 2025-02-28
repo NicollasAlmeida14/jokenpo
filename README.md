@@ -9,4 +9,10 @@
 <br>
 <h3>Aqui estão algumas imagens do projeto:</h3>
 <img src= "https://github.com/NicollasAlmeida14/jokenpo/blob/master/assets/JokenP%C3%B4%20Dev%20desktop.png?raw=true" width= "500px" alt= "imagem-projeto-desktop">
-<img src= "https://github.com/NicollasAlmeida14/jokenpo/blob/master/assets/JokenP%C3%B4%20Dev%20mobile%20pt1.png?raw=true" height= "500px">
+<div>
+<img src= "https://github.com/NicollasAlmeida14/jokenpo/blob/master/assets/JokenP%C3%B4%20Dev%20mobile%20pt1.png?raw=true" height= "500px" alt= "imagem-projeto-responsivo">
+<img src= "https://github.com/NicollasAlmeida14/jokenpo/blob/master/assets/JokenP%C3%B4%20Dev%20mobile%20pt2.png?raw=true" height= "500px" alt= "imagem-projeto-responsivo">
+</div>
+<br>
+<br>
+<p>Criei este projeto para colocar em prática os conhecimentos que venho adquirindo ao longo do tempo em que comecei a aprender programação, como HTML5, CSS3 e, principalmente, JavaScript, além de me desafiar, como um ótimo programador deve fazer!</p>
