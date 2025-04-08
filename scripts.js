@@ -57,14 +57,14 @@ const checkRoundWinner = () => {
         humanRoundsWin++
         humanRounds.innerHTML = humanRoundsWin
         result.innerHTML = 'Jogador venceu a rodada!🥳'
-        changeColorText()
+        changeTextColor()
         disableChoices()
         newRound()
     } if (machineScoreNumber === 7) {
         machineRoundsWin++
         machineRounds.innerHTML = machineRoundsWin
         result.innerHTML = 'Alexa venceu a rodada!🥳'
-        changeColorText()
+        changeTextColor()
         disableChoices()
         newRound()
     }
@@ -119,7 +119,7 @@ const resetGame = () => {
     backToOriginalColor()
 }
 
-const changeColorText = () => {
+const changeTextColor = () => {
     const resultText = document.getElementById('result-text')
 
     resultText.style.color = 'red'
