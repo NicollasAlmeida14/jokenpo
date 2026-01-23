@@ -1,5 +1,6 @@
 <h1>JokenPô-Dev ✊✋✌️</h1>
 <br>
+
 <p>Realizado com HTML, CSS e JavaScript, este projeto consiste em um jogo funiconal de JokenPô e que foi desenvolvido para treinar e aprimorar minhas habilidades adquiridas com a mentoria do Rodolfo Mori dentro do <a href= "https://rodolfomori.com.br/DevClub">DevClub</a></p>
 <br>
 <h3>Seguem abaixo algumas imagens do projeto:</h3>
@@ -30,13 +31,13 @@
 
 <br/>
 
-<h3/>## 🌐 Acesse o projeto</h3>
+<h3>## 🌐 Acesse o projeto</h3>
 
 <span>Clique no link e acesse o deploy do projeto:</span>  https://nicollasalmeida14.github.io/jokenpo/
 
 <br/>
 
-<h3/>## 📚 Aprendizados</h3>
+<h3>## 📚 Aprendizados</h3>
 
 <ul>
   <li>Uso de números aleatórios (Math.random)</li>
@@ -46,7 +47,7 @@
 
 <br/>
 
-<h3/>## 🧑🏻 Autor</h3>
+<h3>## 🧑🏻 Autor</h3>
 
 <p>Este projeto foi realizado pelo desenvolvedor <b>Nicollas Almeida Lopes</b>.</p>
 
